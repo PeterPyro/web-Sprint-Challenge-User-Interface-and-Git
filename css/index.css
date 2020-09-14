@@ -26,13 +26,14 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display:block;
 }
 body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
+    
 }
 blockquote, q {
 	quotes: none;
@@ -66,10 +67,24 @@ p {
     line-height: 1.4;
 }
 
+nav {
+    list-style-type: none;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+nav ul{
+    text-align: center;
+}
+img {
+    align-items: center;
+    }
 .container {
     width: 800px;
     margin: 0 auto;
 }
+ 
 
 .top-content {
     display: flex;
