@@ -111,7 +111,6 @@ body {
 ol,
 ul {
   list-style: none;
-
 }
 blockquote,
 q {
@@ -151,7 +150,6 @@ h5 {
 
 p {
   line-height: 1.4;
-  
 }
 .headerimg img {
   justify-content: center;
@@ -174,8 +172,9 @@ p {
 }
 
 .container about-page {
-display: flex;
-flex-wrap: wrap;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
 }
 .top-content {
   display: flex;
@@ -285,6 +284,12 @@ nav a:hover {
 }
 #box10 {
   background-color: dodgerblue;
+}
+
+.container about-page {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
 }
 footer {
   width: 100%;
